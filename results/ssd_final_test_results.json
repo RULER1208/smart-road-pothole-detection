@@ -1,0 +1,30 @@
+{
+  "model": "SSD300-VGG16",
+  "num_classes": 2,
+  "test_metrics": {
+    "map50_95": 0.48786813020706177,
+    "map50": 0.8076552152633667,
+    "map75": 0.5507457256317139,
+    "mean_recall": 0.5993071794509888
+  },
+  "precision_recall_f1": {
+    "true_positives": 292,
+    "false_positives": 40,
+    "false_negatives": 141,
+    "precision": 0.8795180722891566,
+    "recall": 0.674364896073903,
+    "f1": 0.7633986928104575,
+    "confidence_threshold": 0.5,
+    "iou_threshold": 0.5
+  },
+  "speed": {
+    "images_measured": 100,
+    "mean_ms_per_image": 20.401981409995642,
+    "median_ms_per_image": 20.136747500146157,
+    "fps": 49.01484713195872
+  },
+  "total_parameters": 23745908,
+  "trainable_parameters": 23707188,
+  "batch_size": 4,
+  "seed": 42
+}

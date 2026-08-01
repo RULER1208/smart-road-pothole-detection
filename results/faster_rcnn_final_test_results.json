@@ -1,0 +1,32 @@
+{
+  "model": "Faster R-CNN ResNet50-FPN",
+  "num_classes": 2,
+  "test_metrics": {
+    "map50_95": 0.5100002884864807,
+    "map50": 0.8847896456718445,
+    "map75": 0.5287328958511353,
+    "mean_recall": 0.613163948059082
+  },
+  "precision_recall_f1": {
+    "true_positives": 389,
+    "false_positives": 169,
+    "false_negatives": 44,
+    "precision": 0.6971326164874552,
+    "recall": 0.8983833718244804,
+    "f1": 0.7850655903128152,
+    "confidence_threshold": 0.5,
+    "iou_threshold": 0.5
+  },
+  "speed": {
+    "images_measured": 100,
+    "mean_ms_per_image": 65.14250005995564,
+    "median_ms_per_image": 64.89827249993141,
+    "fps": 15.350961339826124
+  },
+  "total_parameters": 41299161,
+  "trainable_parameters": 41076761,
+  "batch_size": 2,
+  "seed": 42,
+  "internal_min_size": 640,
+  "internal_max_size": 640
+}

@@ -1,0 +1,32 @@
+{
+  "model": "YOLOv8n",
+  "num_classes": 1,
+  "test_metrics": {
+    "map50": 0.9135931470891477,
+    "map50_95": 0.6212182880457473,
+    "map75": 0.7329175322790975,
+    "precision_maxF1": 0.8958636512058503,
+    "recall_maxF1": 0.8290993071593533
+  },
+  "precision_recall_f1": {
+    "true_positives": 353,
+    "false_positives": 43,
+    "false_negatives": 80,
+    "precision": 0.8914141414141414,
+    "recall": 0.815242494226328,
+    "f1": 0.8516284680337757,
+    "confidence_threshold": 0.5,
+    "iou_threshold": 0.5
+  },
+  "speed": {
+    "images_measured": 100,
+    "mean_ms_per_image": 8.331413849991804,
+    "median_ms_per_image": 7.7617635001843155,
+    "fps": 120.0276469282562
+  },
+  "total_parameters": 3005843,
+  "epochs": 80,
+  "batch_size": 4,
+  "imgsz": 640,
+  "seed": 42
+}
